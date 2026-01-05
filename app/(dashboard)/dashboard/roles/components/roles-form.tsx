@@ -355,6 +355,11 @@ export default function RoleForm({
               <FormLabel>Role Name</FormLabel>
               <FormControl>
                 <Input
+                  className="
+    focus-visible:ring-1
+    focus-visible:ring-primary/40
+    focus-visible:ring-offset-0
+  "
                   placeholder="e.g. School Administrator"
                   disabled={isSystemRole}
                   {...field}
@@ -375,6 +380,11 @@ export default function RoleForm({
               <FormLabel>Description</FormLabel>
               <FormControl>
                 <Textarea
+                  className="
+    focus-visible:ring-1
+    focus-visible:ring-primary/40
+    focus-visible:ring-offset-0
+  "
                   placeholder="Describe what this role can do..."
                   {...field}
                 />
@@ -392,6 +402,11 @@ export default function RoleForm({
           <div className="space-y-3">
             <div className="flex gap-2">
               <Input
+                 className="
+    focus-visible:ring-1
+    focus-visible:ring-primary/40
+    focus-visible:ring-offset-0
+  "
                 placeholder="e.g. create:users"
                 value={newPermission}
                 onChange={(e) => setNewPermission(e.target.value)}
