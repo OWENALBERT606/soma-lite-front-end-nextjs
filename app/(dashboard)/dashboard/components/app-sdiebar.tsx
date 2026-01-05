@@ -84,7 +84,7 @@ const navigationItems = [
     url: "/users",
     icon: Users,
     items: [
-      { title: "All Users", url: "/users" },
+      { title: "Users", url: "/dashboard/users" },
       { title: "Students", url: "/users/students" },
       { title: "Teachers", url: "/users/teachers" },
       { title: "Administrators", url: "/users/admins" },
